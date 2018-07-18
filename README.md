@@ -1,10 +1,13 @@
-# eslint-config-rxgx
+# :construction_worker: eslint-config-rxgx
 
-ESLint configurations and bundles to enable rules and formatting based on:
+A brainless ESLint configuration to automatically apply the rules and formatting based on:
 
 * ESLint/recommended
 * Prettier/recommended
 * React/recommended _(requires `babel-eslint`)_
+
+If you do not use [Prettier](https://prettier.io), this config will ruin your life or—at the very least—trigger your teenage angst! For those who never want to have another discussion on code formatting, please continue.
+
 
 ### Directions
 
