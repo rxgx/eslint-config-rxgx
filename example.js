@@ -17,6 +17,7 @@ export class Application extends React {
     super(props);
     this.env = env;
     this.location = window.document.location;
+    this.state = { error: null, data: null };
   }
 
   componentDidMount() {
