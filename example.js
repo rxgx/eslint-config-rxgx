@@ -1,12 +1,14 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
+import axios from 'axios';
 import config from './index';
 
 const three = 'THREE';
 const [one, two] = [1, 2];
 const { env } = config;
 
-export default class Component extends React {
+export class Application extends React {
   static propTypes = {
     isDisabled: PropTypes.bool.isRequired
   };
@@ -14,6 +16,26 @@ export default class Component extends React {
   constructor(props) {
     super(props);
     this.env = env;
+    this.location = window.document.location;
+  }
+
+  componentDidMount() {
+    this.getRemoteStuff()
+      .catch(error => {
+        this.setState({ error });
+      })
+      .then(data => {
+        this.setState({ data });
+      });
+  }
+
+  async getRemoteStuff() {
+    let error;
+    const result = await axios
+      .get('https://rxgx.com')
+      .catch(err => (error = err));
+    if (error) return Promise.reject(error);
+    return result.data;
   }
 
   render() {
@@ -33,3 +55,7 @@ export default class Component extends React {
     );
   }
 }
+
+var element = document.getElementById('application');
+var component = React.createElement(Application, {});
+ReactDOM.render(component, element);
