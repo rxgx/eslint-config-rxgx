@@ -2,6 +2,7 @@
 
 I recommend **standard** for vanilla JS or **ts-standard** for TypeScript.
 
+---
 
 # eslint-config-rxgx
 
