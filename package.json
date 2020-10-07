@@ -4,6 +4,7 @@
   "description": "My personal ESLint sharable config",
   "main": "index.js",
   "scripts": {
+    "release": "semantic-release",
     "test": "eslint '**/*.js'"
   },
   "keywords": [
@@ -15,6 +16,10 @@
   ],
   "author": "Ryan Gasparini <ryan@rxgx.com> (http://www.rxgx.com)",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rxgx/json-calendar.git"
+  },
   "peerDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.10.0",
