@@ -4,7 +4,7 @@
   "description": "My personal ESLint sharable config",
   "main": "index.js",
   "scripts": {
-    "test": "eslint example.js"
+    "test": "eslint '**/*.js'"
   },
   "keywords": [
     "eslint",
