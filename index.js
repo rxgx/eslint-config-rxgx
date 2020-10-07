@@ -15,6 +15,11 @@ module.exports = {
     'plugin:prettier/recommended'
   ],
   plugins: ['react'],
+  settings: {
+    react: {
+      version: 'detect'
+    },
+  },
   rules: {
     'prettier/prettier': ['error', { singleQuote: true }],
     'react/prop-types': ['warn'],
