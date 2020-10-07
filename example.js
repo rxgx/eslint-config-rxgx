@@ -10,7 +10,7 @@ const { env } = config;
 
 export class Application extends React {
   static propTypes = {
-    isDisabled: PropTypes.bool.isRequired
+    isDisabled: PropTypes.bool.isRequired,
   };
 
   constructor(props) {
@@ -22,10 +22,10 @@ export class Application extends React {
 
   componentDidMount() {
     this.getRemoteStuff()
-      .catch(error => {
+      .catch((error) => {
         this.setState({ error });
       })
-      .then(data => {
+      .then((data) => {
         this.setState({ data });
       });
   }
@@ -34,7 +34,7 @@ export class Application extends React {
     let error;
     const result = await axios
       .get('https://rxgx.com')
-      .catch(err => (error = err));
+      .catch((err) => (error = err));
     if (error) return Promise.reject(error);
     return result.data;
   }
