@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/rxgx/eslint-config-rxgx/compare/v1.1.0...v1.2.0) (2020-10-07)
+
+
+### Features
+
+* automatic version bump ([b3100e4](https://github.com/rxgx/eslint-config-rxgx/commit/b3100e4223e0a3dbbe5e2fc13784979c6a03c75e))
+
 # [1.1.0](https://github.com/rxgx/eslint-config-rxgx/compare/v1.0.2...v1.1.0) (2020-10-07)
 
 
