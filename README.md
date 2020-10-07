@@ -2,7 +2,9 @@
 
 I recommend [standard](hhttps://github.com/standard/standard) for vanilla JS or [ts-standard](https://github.com/toddbluhm/ts-standard) for TypeScript.
 
+
 ---
+
 
 # eslint-config-rxgx
 
