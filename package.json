@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-rxgx",
-  "version": "1.0.2",
+  "version": "1.1.1",
   "description": "My personal ESLint sharable config",
   "main": "index.js",
   "scripts": {

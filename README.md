@@ -1,6 +1,6 @@
 ### :construction_worker: No longer maintained
 
-I recommend **standard** for vanilla JS or **ts-standard** for TypeScript.
+I recommend [standard](hhttps://github.com/standard/standard) for vanilla JS or [ts-standard](https://github.com/toddbluhm/ts-standard) for TypeScript.
 
 ---
 
