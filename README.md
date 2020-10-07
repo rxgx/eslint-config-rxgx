@@ -1,6 +1,11 @@
-# :construction_worker: eslint-config-rxgx
+### :construction_worker: No longer maintained
 
-A brainless ESLint configuration to automatically apply the rules and formatting based on:
+I recommend **standard** for vanilla JS or **ts-standard** for TypeScript.
+
+
+# eslint-config-rxgx
+
+A ~brainless~ donkey-brain ESLint configuration to automatically apply the rules and formatting based on:
 
 * ESLint/recommended
 * Prettier/recommended
